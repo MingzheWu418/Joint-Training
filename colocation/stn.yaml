@@ -1,0 +1,24 @@
+# Data config
+building: KETI_oneweek # Soda or KETI_oneweek
+data: ../KETI_oneweek
+log: ./log/
+# FFT config
+window_size: 200
+#200
+k_coefficient: 32
+#32
+stride: 20    
+#20
+interval: 5
+#5
+max_length: 130000
+#130000
+# CNN config
+fold: 5
+epoch: 301
+batch_size: 32
+optim: 'Adam'
+learning_rate: 0.0003
+dropout: 0.4
+grad_norm: 0
+weight_decay: 0.01

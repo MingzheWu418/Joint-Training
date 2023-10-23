@@ -1,0 +1,3 @@
+Each folder contains the raw timeseries readings (as a separate .csv file with the format of 'timestamp in unix epoch time - reading') for each stream in a building.
+
+There is a separate file for each building marking the type ground truth of each stream with a class ID, and you can find the mapping between the class ID to the true type in class_mapping.

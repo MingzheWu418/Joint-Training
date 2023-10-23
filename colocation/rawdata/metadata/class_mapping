@@ -1,0 +1,29 @@
+--------
+the mapping from class ID to true type
+--------
+1 co2
+2 air humidity 
+3 air pressure
+4 room air temperature
+5 facility operation status
+6 setpoint
+7 air flow volume
+8 hot water supply temperature
+9 hot water return temperature
+10 cold water supply temperature
+11 cold water return temperature
+12 supply air temperature
+13 return air temperature
+14 heater entering temperature
+15 heater leaving temperature
+16 heater med temperature
+17 mixed air temperature
+18 ice Tank enter temperature
+19 ice Tank leave temperature
+20 dew point temperature
+21 occupancy
+30 vavle position
+31 power measurement
+32 control point
+33 fan speed
+34 timer

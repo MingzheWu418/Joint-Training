@@ -1,0 +1,7 @@
+README.md
+setup.py
+colocation.egg-info/PKG-INFO
+colocation.egg-info/SOURCES.txt
+colocation.egg-info/dependency_links.txt
+colocation.egg-info/top_level.txt
+colocation/core/corr_score/c_score_func.c
