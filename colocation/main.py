@@ -70,8 +70,8 @@ def parse_args():
                         choices=['stn'])
     parser.add_argument('-pipeline', default='joint', type=str,
                         choices=['joint', 'two_step'])
-    parser.add_argument('-loss', default='comb', type=str,
-                        choices=['triplet', 'comb'])
+    # parser.add_argument('-loss', default='comb', type=str,
+    #                     choices=['triplet', 'comb'])
     parser.add_argument('-seed', default=None, type=int,
                         help="Random seed")
     parser.add_argument('-log', default='stn', type=str,
