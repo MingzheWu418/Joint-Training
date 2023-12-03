@@ -3,7 +3,6 @@ Joint training model for spatial relation inference.
 
 # Project tree
 
-.
  * [KETI_oneweek](./KETI_oneweek) contains the KETI-Oneweek dataset with 204 sensors in an office building, each with 130,000 readings.
  * [colocation](./colocation)
    * [main.py](./colocation/main.py) is the file for model training
