@@ -70,8 +70,6 @@ def parse_args():
                         choices=['stn'])
     parser.add_argument('-pipeline', default='joint', type=str,
                         choices=['joint', 'two_step'])
-    # parser.add_argument('-loss', default='comb', type=str,
-    #                     choices=['triplet', 'comb'])
     parser.add_argument('-seed', default=None, type=int,
                         help="Random seed")
     parser.add_argument('-log', default='stn', type=str,
@@ -564,7 +562,6 @@ def main():
                 del RI_train_out
                 torch.cuda.empty_cache()
 
-                
                 fine_tune = False
                 if args.pipeline == 'joint' and n_iter % 10 == 0:
                     fine_tune = True
@@ -614,6 +611,8 @@ def main():
 
                 if validation_step and (n_iter % validation_step == 0 or n_iter == total_epochs-1):
                     # validating the model
+
+                    # We call the Genetic Algorithm method as a baseline
                     solution, recall, room_wise_acc, trip_acc, gt_fitness, ga_fitness = test_colocation(test_x, test_y, model, fold, args.split)
 
                     model.eval()

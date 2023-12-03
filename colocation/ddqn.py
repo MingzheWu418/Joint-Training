@@ -124,10 +124,10 @@ class DQN:
         self.ajr = graph_generator.ajr
         self.hidden_dim = hidden_dim  # hidden dimension for node representation
         self.n = graph_generator.n
-        print("----")
-        print(self.m)
-        print(self.k)
-        print(self.ajr)
+        # print("----")
+        # print(self.m)
+        # print(self.k)
+        # print(self.ajr)
         self.eps = eps  # constant for exploration in dqn
         assert explore_method in ['epsilon_greedy', 'softmax', 'soft_dqn']
         self.explore_method = explore_method
@@ -498,7 +498,6 @@ class DQN:
         
         sample_buffer = np.random.choice(self.experience_replay_buffer, batch_size, replace=False)
         # make batches
-        # TODO: finish this part
         batch_begin_state = []
         batch_end_state = []
         for tpl in sample_buffer:
