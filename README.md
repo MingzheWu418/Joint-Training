@@ -1,5 +1,5 @@
 # Relational Inference
-Joint training model for spatial relation inference. 
+Joint training model for spatial relation inference in smart buildings. This repository contains codes and datasets we used for our paper An end-to-End Solution for Spatial Inference in Smart Buildings.
 
 # Project tree
 
