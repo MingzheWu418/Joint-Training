@@ -11,5 +11,5 @@ Joint training model for spatial relation inference in smart buildings. This rep
    * [Data.py](./colocation/Data.py) is responsible for reading in datasets, such as Soda or KETI-Oneweek.
    * [rawdata](./colocation/rawdata/) contains our other dataset Soda
      * [metadata](./colocation/rawdata/metadata)
-       * [Soda](./colocation/rawdata/metadata/Soda) is the directory that stores all sensor readings.
+       * [Soda](./colocation/rawdata/metadata/Soda) is the directory that stores all sensor readings for Soda dataset.
  * [README.md](./README.md)
